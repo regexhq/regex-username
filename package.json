@@ -1,0 +1,29 @@
+{
+  "name": "regex-username",
+  "version": "1.0.0",
+  "description": "Regular expression for usernames",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "regexps/regex-username",
+  "keywords": [
+    "regular expression",
+    "regex",
+    "regexp",
+    "user",
+    "username"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "make-lint": "^1.0.1",
+    "mocha": "^2.0.1"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
+}
