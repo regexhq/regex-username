@@ -1,6 +1,6 @@
 {
   "name": "regex-username",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Regular expression for usernames - it follows the same rules that GitHub uses.",
   "main": "index.js",
   "scripts": {
