@@ -3,6 +3,7 @@ SRC = index.js
 include node_modules/make-lint/index.mk
 
 LINT_CONFIG = .eslintrc
+LINT = node_modules/.bin/eslint
 TESTS = test.js
 
 test: lint
