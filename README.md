@@ -21,11 +21,14 @@ regex().test('foo-bar'); // => true
 regex().test('foobar'); // => true
 regex().test('3foobar'); // => true
 regex().test('3foo-bar'); // => true
+regex().test('foo-bar-baz'); // => true
+regex().test('f'); // => true
 regex().test('foo-bar-'); // => false
 regex().test('-foo-bar'); // => false
 regex().test('foo--bar'); // => false
 regex().test('~derp@darp---++asdf'); // => false
 regex().test('derp@mail.com'); // => false
+regex().test('foo_bar'); // => false
 ```
 
 ## Why?
